@@ -13,15 +13,6 @@ self.addEventListener('push', (e) => {
     }
 });
 
-self.addEventListener('Messaging', (e) => {
-    console.log("PUSHHHE");
-    const data = e.data?.json();
-    if (data) {
-        self.registration.showNotification(data, {
-            body: data,
-        }).then(r => console.log(r));
-    }
-});
 
 self.addEventListener('notificationclick', (e) => {
     e.notification.close();
