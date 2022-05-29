@@ -33,6 +33,7 @@ export default {
     removeTask: function (id){
       document.getElementById("Task"+id).remove();
       document.getElementById("showTask").style.display = "none";
+      localStorage.removeItem(id);
     },
 
   }

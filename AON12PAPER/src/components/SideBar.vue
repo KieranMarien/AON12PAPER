@@ -58,7 +58,6 @@ export default {
         finished: false
       }
       this.$emit('addTask', task);
-      console.log("???????")
       this.clearInputs();
       this.CloseDialog();
     },

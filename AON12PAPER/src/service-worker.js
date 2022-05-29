@@ -4,7 +4,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 
 self.addEventListener('push', (e) => {
-    console.log("PUSHHHE");
+
     const data = e.data?.json();
     if (data) {
         self.registration.showNotification(data.title, {
