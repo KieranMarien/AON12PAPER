@@ -22,7 +22,7 @@ Wordt best op chrome opgestart, hier kan men de PWA installeren. Vergeet niet in
 
 Is een kleine API die op de aangegeven tijd een melding naar de service worker van de frontend stuurt. De service worker kan dan de notificatie laten zien.
 
-
+### Opstarten 
 ToDoBackEndApplication.java runnen.
 
 ## Sources 
